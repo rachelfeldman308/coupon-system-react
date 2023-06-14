@@ -1,0 +1,28 @@
+.Layout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 15% 80% 5%;
+  grid-template-columns: repeat(6, 1fr); /*6 equal columns*/
+  width: 100%;
+  
+}
+
+.Layout header {
+  grid-column: span 6;
+}
+
+.Layout main {
+  grid-column: span 5;
+}
+
+.Layout footer {
+  grid-column: span 6;
+}
+
+.Layout, .Layout > * {
+  /* border: 1px solid black; */
+  overflow: auto;
+}
+  
+  

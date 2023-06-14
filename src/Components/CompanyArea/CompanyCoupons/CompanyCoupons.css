@@ -1,0 +1,23 @@
+.buttonFood{
+    width: 20%;
+}
+.buttonElec{
+    width: 20%;
+}
+.buttonRest{
+    width: 20%;
+}
+.buttonVac{
+    width: 20%;
+}
+.buttonAll{
+    width: 20%;
+}
+.CompanyCoupons label{
+ color: rgb(65, 162, 246);
+}
+.CompanyCoupons input{
+width: 20%;
+border-radius: 5px;
+border-color:rgb(65, 162, 246) ;
+}
